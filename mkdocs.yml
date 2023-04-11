@@ -1,0 +1,18 @@
+site_name: SPDX 3.0
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true

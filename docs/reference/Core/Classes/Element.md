@@ -2,6 +2,10 @@ SPDX-License-Identifier: Community-Spec-1.0
 
 # Element
 
+!!! tip "Abstract"
+
+    This is an abstract class, use one of its subclasses instead: [Annotation](Annotation.md), ...
+
 ## Summary
 
 Base domain class from which all other SPDX-3.0 domain classes derive.
@@ -23,32 +27,4 @@ and inter-relatable content objects.
 
 ## Properties
 
-- spdxId
-  - type: xsd:anyURI
-  - minCount: 1
-  - maxCount: 1
-- name
-  - type: xsd:string
-  - maxCount: 1
-- summary
-  - type: xsd:string
-  - maxCount: 1
-- description
-  - type: xsd:string
-  - maxCount: 1
-- comment
-  - type: xsd:string
-  - maxCount: 1
-- creationInfo
-  - type: CreationInformation
-  - minCount: 1
-  - maxCount: 1
-- verifiedUsing
-  - type: IntegrityMethod
-- externalReferences
-  - type: ExternalReference
-- externalIdentifiers
-  - type: ExternalIdentifier
-- extensions
-  - type: Extension
-
+--8<-- "docs/reference/Core/Classes/Element_Properties.mdi"

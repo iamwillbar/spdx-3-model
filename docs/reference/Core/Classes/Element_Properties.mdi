@@ -1,0 +1,12 @@
+    | Name                  | Type                                            | Cardinality |
+    | --------------------- | ----------------------------------------------- | ----------- |
+    | `spdxId`              | `xsd:anyURI`                                    | `1..1`      |
+    | `name`                | `xsd:string`                                    | `0..1`      |
+    | `summary`             | `xsd:string`                                    | `0..1`      |
+    | `description`         | `xsd:string`                                    | `0..1`      |
+    | `comment`             | `xsd:string`                                    | `0..1`      |
+    | `creationInfo`        | [`CreationInformation`](CreationInformation.md) | `1..1`      |
+    | `verifiedUsing`       | [`IntegrityMethod`](IntegrityMethod.md)         | `0..*`      |
+    | `externalReferences`  | [`ExternalReference`](ExternalReference.md)     | `0..*`      |
+    | `externalIdentifiers` | [`ExternalIdentifier`](ExternalIdentifier.md)   | `0..*`      |
+    | `extensions`          | [`Extension`](Extension.md)                     | `0..*`      |
