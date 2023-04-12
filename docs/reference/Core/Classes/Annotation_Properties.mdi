@@ -1,0 +1,4 @@
+    | `annotationType` | [`AnnotationType`](../Vocabularies/AnnotationType.md) | `1..1`{ title="Required." } |
+    | `contentType`    | `MediaType`                                           | `0..1`{ title="Optional." } |
+    | `statement`      | `String`                                              | `1..1`{ title="Required." } |
+    | `subject`        | [`ElementRef`](Element.md)                            | `1..1`{ title="Required." } |

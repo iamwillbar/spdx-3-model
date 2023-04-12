@@ -17,15 +17,18 @@ Annotations can be presented in different formats, including text, symbols, high
 
 === "Annotation"
 
-    | Name             | Type                                                  | Cardinality                 |
-    | ---------------- | ----------------------------------------------------- | --------------------------- |
-    | `annotationType` | [`AnnotationType`](../Vocabularies/AnnotationType.md) | `1..1`{ title="Required." } |
-    | `contentType`    | `MediaType`                                           | `0..1`{ title="Optional." } |
-    | `statement`      | `String`                                              | `1..1`{ title="Required." } |
-    | `subject`        | [`ElementRef`](Element.md)                            | `1..1`{ title="Required." } |
+  -8<-- "docs/reference/Core/Classes/_Header_Properties.mdi"
+  -8<-- "docs/reference/Core/Classes/Annotation_Properties.mdi"
   
 === "Element (inherited)"
 
+  -8<-- "docs/reference/Core/Classes/_Header_Properties.mdi"
+  -8<-- "docs/reference/Core/Classes/Element_Properties.mdi"
+  
+=== "All"
+
+  -8<-- "docs/reference/Core/Classes/_Header_Properties.mdi"
+  -8<-- "docs/reference/Core/Classes/Annotation_Properties.mdi"
   -8<-- "docs/reference/Core/Classes/Element_Properties.mdi"
 
 ## Syntax
